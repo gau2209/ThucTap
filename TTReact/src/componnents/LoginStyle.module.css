@@ -1,0 +1,74 @@
+.loginContainer{
+margin: auto;
+padding: 50px 30px;
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0,0.5);
+width: 400px;
+text-align: center;
+}
+
+.h2Text{
+margin-bottom: 20px;
+text-transform: uppercase;
+letter-spacing: 3px;
+color: #007bff;
+}
+
+.inpu{
+
+width: 90%;
+padding: 5px;
+margin-bottom: 10px;
+border: 1px solid #0000ff;
+border-radius: 5px;
+}
+
+.butSubmit{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.butSubmit:hover{
+    background-color: #0056b3;
+}
+
+.forget{
+     margin: -15px 0 15px; 
+     color: black;
+     display: flex;  
+     justify-content: space-between; 
+}
+.forget label input{
+    margin-right: 3px;
+}
+.forget label a {
+    color: black;
+    margin-left: 120px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.forget label a:hover{
+   text-decoration: underline;
+}
+
+.register{
+    font-size: .9em;
+    color: #717171;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register p a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.register p a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+.wrap{
+    position: relative;
+}
+.top{
+display: flex;
+margin-top: 50px;
+}
+
+.locate::before{
+content: 'Location: ';
+color: blueviolet;
+}
+
+.topRight{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.foodPrice::before{
+content: 'Price: ';
+color: black;
+}
+
+.foodPrice::after{
+content: ' VND';
+color: red;
+}

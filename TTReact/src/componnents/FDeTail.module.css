@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+    margin: 3rem;
+}
+
+.container>* {
+    min-width: 25rem;
+    max-width: 40rem;
+}
+
+.image {
+    border-radius: 3rem;
+    flex: 1 0;
+    object-fit: cover;
+    height: 35rem;
+    margin: 1rem;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0;
+    border-radius: 3rem;
+    padding: 2rem;
+    color: black;
+    margin-left: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.origin {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.status::before {
+    content: "Trạng thái: ";
+    color: darkgray;
+}
+
+.origin>span {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    border-radius: 2rem;
+    background-color: aliceblue;
+}
+
+.price {
+    font-size: 1.8rem;
+    margin: 0.5rem 0.5rem 0.5rem 0;
+    color: green;
+}
+
+.price::before {
+    content: 'Price: ';
+    color: darkgray;
+}
+
+.price::after {
+    content: "đ";
+    font-weight: 400;
+    position: relative;
+    top: -9px;
+    font-size: 15px;
+    right: 0;
+}
+
+.container button {
+    color: white;
+    background-color: #e72929;
+    border: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-radius: 10rem;
+    outline: none;
+}
+
+.container button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.commentAuthor {
+    float: left;
+    width: 130px;
+    height: 50px;
+}
+
+.commentAuthor img {
+    margin-top: 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.commentAuthor span {
+    padding-left: 3px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.commentContent {
+    float: left;
+    width: 1000px;
+    margin: auto;
+}
+
+.commentRating {
+    float: right;
+    width: 95px;
+}
